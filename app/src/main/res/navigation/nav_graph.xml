@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/coroutineScopeFragment">
+
+    <fragment
+        android:id="@+id/coroutineScopeFragment"
+        android:name="com.example.coroutinesexplained.ui.CoroutineScopeFragment"
+        android:label="fragment_coroutine_scope"
+        tools:layout="@layout/fragment_coroutine_scope" />
+</navigation>
